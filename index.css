@@ -1,0 +1,33 @@
+
+h1 {
+    color: black;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: linear-gradient(-45deg, yellow, green);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+     vertical-align: center;
+     background-color: orangered;
+}
+
+table {
+    width:100%;
+    table-layout:fixed;
+}
+
+Event1 {
+    
+}
+
