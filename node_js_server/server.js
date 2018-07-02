@@ -1,3 +1,4 @@
+
 const express = require('express');
 const HLTV = require.resolve('hltv-api');
 const app = express();
