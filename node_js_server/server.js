@@ -1,5 +1,5 @@
 const express = require('express');
-const HLTV = require('hltv-api');
+const HLTV = require.resolve('hltv-api');
 const app = express();
 
 app.get('/', function(req, res) {
