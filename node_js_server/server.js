@@ -1,6 +1,6 @@
 
 const express = require('express');
-const HLTV = require.resolve('hltv-api');
+const HLTV = require('hltv-api');
 const app = express();
 
 app.get('/', function(req, res) {
@@ -11,5 +11,5 @@ app.get('/', function(req, res) {
 console.log('Results Loaded')
 
 app.listen(3000, function() {
-  console.log('Running on port 3000, eg.) 192.168.1.1:3000');
+  console.log('Listening on port 3000...');
 });
