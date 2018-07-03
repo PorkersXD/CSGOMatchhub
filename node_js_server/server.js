@@ -1,8 +1,13 @@
+const express = require('express');
+const HLTV = require('hltv-api');
+const app = express();
+
+app.listen(3000, function() {
+  console.log('Listening on port 3000...');
+});
 
 function main() {
-  const express = require('express');
-  const HLTV = require('hltv-api');
-  const app = express();
+
 
   app.get('/', function(req, res) {
     HLTV.getResults(function(results) {
@@ -11,9 +16,8 @@ function main() {
   });
   console.log('Results Loaded')
 
-  app.listen(3000, function() {
-    console.log('Listening on port 3000...');
-  });
+ 
+  setTimeout(edetection, 60000)
 }
 
 
