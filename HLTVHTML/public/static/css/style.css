@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    border-style: none;
+    margin: 0;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    vertical-align: top
+    width: 50%;
+    border-style: none;
+    margin: 0;
+    font-size: 50px
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: stretch;
+    margin-top: -58px;
+        
+}
+
+img {
+    border-style: none;
+    height: 50px;
+}
+
+table {
+    color: black;
+    margin-top: -550px;
+    background-color: white;
+
+}
+
+table, td, th {
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+
+
+th {
+    text-align: left;
+}
